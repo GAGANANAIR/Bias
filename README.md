@@ -1,3 +1,14 @@
+<p align="center">
+  <img src="banner.svg" alt="Bias — Probing Caste Bias in LLMs" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/python-3.9%2B-blue?logo=python&logoColor=white" alt="Python 3.9+"/>
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License"/>
+  <img src="https://img.shields.io/badge/research-mechanistic%20interpretability-8b5cf6" alt="Mechanistic Interpretability"/>
+  <img src="https://img.shields.io/badge/models-Gemma%20%7C%20Llama-ec4899" alt="Gemma | Llama"/>
+</p>
+
 # Bias
 
 Investigating caste bias in Large Language Models using Sparse Autoencoders (SAEs) and circuit tracing, via [Neuronpedia](https://neuronpedia.org).
@@ -12,9 +23,17 @@ Surnames are grouped by caste association (Brahmin vs. Dalit), and model complet
 
 ## Models Tested
 
-- Gemma 2B
-- Gemma 9B
-- Llama 3.1 8B
+| Model | Status |
+|---|---|
+| Gemma 2B | ✅ |
+| Gemma 9B | ✅ |
+| Llama 3.1 8B | ✅ |
+
+## Pipeline
+
+<p align="center">
+  <img src="docs/pipeline.svg" alt="Research pipeline: probe -> combine -> visualize" width="100%"/>
+</p>
 
 ## Scripts
 
@@ -44,6 +63,10 @@ python3 heat.py
 - Mechanistic Interpretability
 - Sparse Autoencoders (SAEs)
 - LLM Bias Research
+
+## Contributing
+
+Contributions, replications, and extensions (new models, new name/surname sets, alternate bias categories) are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Author
 
