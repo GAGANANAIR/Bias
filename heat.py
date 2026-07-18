@@ -2,15 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# ==========================
-# LOAD CSV
-# ==========================
 
 df = pd.read_csv("Heatplotown.csv")
-
-# ==========================
-# CATEGORY -> SCORE
-# ==========================
 
 score_map = {
     "High": 1,
@@ -24,12 +17,8 @@ score_map = {
 
 df["Score"] = df["category"].map(score_map)
 
-# Remove rows with unknown categories
 df = df.dropna(subset=["Score"])
 
-# ==========================
-# ORDER OF NAMES
-# ==========================
 
 firstname_order = ["Ramu", "Raju", "Ramesh", "Suresh"]
 surname_order = ["Sharma", "Iyer", "Mukherjee",
@@ -37,9 +26,6 @@ surname_order = ["Sharma", "Iyer", "Mukherjee",
 
 models = df["Model"].unique()
 
-# ==========================
-# CREATE SUBPLOTS
-# ==========================
 
 fig, axes = plt.subplots(
     1,
@@ -50,10 +36,6 @@ fig, axes = plt.subplots(
 
 if len(models) == 1:
     axes = [axes]
-
-# ==========================
-# HEATMAP FOR EACH MODEL
-# ==========================
 
 for ax, model in zip(axes, models):
 
@@ -86,15 +68,13 @@ for ax, model in zip(axes, models):
     ax.set_xlabel("Surname")
     ax.set_ylabel("FirstName")
 
-    # Vertical separator between caste groups
+ 
     ax.axvline(3, color="black", linewidth=2)
 
 plt.suptitle(
     "First Name × Surname, per Model",
     fontsize=18
 )
-
-# Save as PNG
 plt.savefig(
     "Occupation_PrestigeHeatmap.png",
     dpi=300,
