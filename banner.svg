@@ -1,14 +1,26 @@
-<svg width="1200" height="200" viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="200" fill="#1c1c1c"/>
-  <line x1="0" y1="199" x2="1200" y2="199" stroke="#3a3a3a" stroke-width="2"/>
+<svg width="1200" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="220" fill="#0d1117"/>
+  <rect x="0" y="0" width="6" height="220" fill="#7f77dd"/>
 
-  <text x="60" y="90" font-family="Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#ffffff">Bias</text>
-  <text x="60" y="122" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#a3a3a3">Probing caste bias in large language models</text>
+  <text x="60" y="80" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="40" font-weight="700" fill="#f0f6fc">Bias</text>
+  <text x="60" y="112" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#8b949e">Probing caste bias in large language models</text>
 
-  <line x1="60" y1="145" x2="1140" y2="145" stroke="#3a3a3a" stroke-width="1"/>
+  <line x1="60" y1="140" x2="1140" y2="140" stroke="#21262d" stroke-width="1"/>
 
-  <text x="60" y="172" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8a8a">Gemma 2B</text>
-  <text x="200" y="172" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8a8a">Gemma 9B</text>
-  <text x="340" y="172" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8a8a">Llama 3.1 8B</text>
-  <text x="1140" y="172" font-family="Helvetica, Arial, sans-serif" font-size="13" fill="#8a8a8a" text-anchor="end">Neuronpedia · Sparse Autoencoders</text>
+  <!-- Model tags -->
+  <rect x="60" y="160" width="82" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="101" y="178" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#c9d1d9" text-anchor="middle">Gemma 2B</text>
+
+  <rect x="152" y="160" width="82" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="193" y="178" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#c9d1d9" text-anchor="middle">Gemma 9B</text>
+
+  <rect x="244" y="160" width="100" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="294" y="178" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#c9d1d9" text-anchor="middle">Llama 3.1 8B</text>
+
+  <!-- Right side tags -->
+  <rect x="944" y="160" width="90" height="28" rx="14" fill="#161b22" stroke="#3fb950" stroke-width="1"/>
+  <text x="989" y="178" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#3fb950" text-anchor="middle">Neuronpedia</text>
+
+  <rect x="1044" y="160" width="96" height="28" rx="14" fill="#161b22" stroke="#a371f7" stroke-width="1"/>
+  <text x="1092" y="178" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a371f7" text-anchor="middle">SAE research</text>
 </svg>
