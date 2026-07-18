@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.svg" alt="Bias — Probing Caste Bias in LLMs" width="100%"/>
+  <img src="banner.svg?v=2" alt="Bias — Probing Caste Bias in LLMs" width="100%"/>
 </p>
 
 <p align="center">
