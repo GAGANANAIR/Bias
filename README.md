@@ -6,9 +6,13 @@ AI Research | Mechanistic Interpretability | Python
 Currently working on
 
 • Mechanistic Interpretability
+
 • Sparse Autoencoders (SAEs)
+
 • Gemma & Llama Analysis
+
 • LLM Bias Research
+
 • Data Science
 
 Skills
